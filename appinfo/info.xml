@@ -3,14 +3,14 @@
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
     <id>unroundedcorners</id>
     <name>Unrounded Corners</name>
-    <summary><![CDATA[Make corners look good again]]></summary>
+    <summary>An extension for making the corners in NextCloud unrounded</summary>
     <description><![CDATA[
 # Unrounded Corners
 A Nextcloud app that restores the corners to their original looks, by unrounding them.
     ]]></description>
     <version>1.0.0</version>
     <licence>agpl</licence>
-    <author mail="me@oliverparoczai.org" homepage="https://github.com/OliverParoczai/nextcloud-unroundedcorners">Oliver Paroczai</author>
+    <author mail="me@oliverparoczai.org" homepage="https://oliverparoczai.dev">Oliver Paroczai</author>
     <namespace>UnroundedCorners</namespace>
     <category>customization</category>
     <website>https://github.com/OliverParoczai/nextcloud-unroundedcorners</website>
