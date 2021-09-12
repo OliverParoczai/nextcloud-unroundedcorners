@@ -1,0 +1,16 @@
+:root{ /* For sitewide buttons */
+    --border-radius-large: 4px !important; /* Used on the dashboard */
+    --border-radius-pill: 4px !important; /* Used everywhere else */
+}
+
+.list-item, .list-item-style, .action-item--single, .action-item__menutoggle{ /* For E-mail app */
+    border-radius: 4px !important;
+}
+
+.icon-history{
+    border-radius: 100px !important; /* Still E-mail, reversing the border for this icon as it has an animation that would overlap */
+}
+
+.fc-day-today .fc-daygrid-day-number{ /* For Calendar app */
+    border-radius: 4px !important;
+}
