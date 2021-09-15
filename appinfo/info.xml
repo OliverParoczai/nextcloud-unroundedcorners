@@ -3,10 +3,10 @@
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
     <id>unroundedcorners</id>
     <name>Unrounded Corners</name>
-    <summary>An extension for making the corners in NextCloud unrounded</summary>
+    <summary>An extension for making the corners of buttons and widgets unrounded</summary>
     <description><![CDATA[
 # Unrounded Corners
-A Nextcloud app that restores the corners to their original looks, by unrounding them.
+A Nextcloud app that restores the corners of buttons and widgets to their original looks by unrounding them.
     ]]></description>
     <version>1.0.0</version>
     <licence>agpl</licence>
