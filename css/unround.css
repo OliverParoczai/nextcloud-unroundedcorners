@@ -14,3 +14,7 @@
 .fc-day-today .fc-daygrid-day-number{ /* For Calendar app */
     border-radius: 4px !important;
 }
+
+.note-card-view, .folder-card-view{ /* For Carnet app */
+    border-radius: 4px !important;
+}
