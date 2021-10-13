@@ -18,3 +18,7 @@
 .note-card-view, .folder-card-view{ /* For Carnet app */
     border-radius: 4px !important;
 }
+
+#uploadprogressbar { /* For upload progress bar */
+    border-radius: 4px 0 0 4px;
+}
