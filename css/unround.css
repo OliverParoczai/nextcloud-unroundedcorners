@@ -22,3 +22,14 @@
 #uploadprogressbar { /* For upload progress bar */
     border-radius: var(--border-radius-pill) 0 0 var(--border-radius-pill) !important;
 }
+
+/* For buttons */
+input[type='submit'],
+input[type='submit'].icon-confirm,
+input[type='button'],
+button,
+a.button,
+.button,
+select {
+    border-radius: var(--border-radius-pill) !important;
+}
