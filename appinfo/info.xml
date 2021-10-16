@@ -17,6 +17,6 @@ A Nextcloud app that restores the corners of buttons and widgets to their origin
     <bugs>https://github.com/OliverParoczai/nextcloud-unroundedcorners/issues</bugs>
     <screenshot>https://raw.githubusercontent.com/OliverParoczai/nextcloud-unroundedcorners/master/differences.png</screenshot>
     <dependencies>
-        <nextcloud min-version="15" max-version="22"/>
+        <nextcloud min-version="15" max-version="23"/>
     </dependencies>
 </info>
