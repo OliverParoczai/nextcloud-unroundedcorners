@@ -15,7 +15,7 @@ VERSION=$(xmlstarlet sel -T -t -m '//info/version' -v . -n tmp/unroundedcorners/
 echo "Version is ${VERSION}"
 
 echo "Starting compression"
-tar --exclude='differences.png' --exclude=".git" -czf unroundedcorners-v${VERSION}.tar.gz -C tmp unroundedcorners/
+tar --exclude='code' --exclude='differences.png' --exclude=".git" -czf unroundedcorners-v${VERSION}.tar.gz -C tmp unroundedcorners/
 
 rm -rf tmp
 
