@@ -25,3 +25,9 @@ For the CSS we used variables that automatically changed all "pill"-style button
 # Usage with Custom CSS
 
 To be updated at a later time
+
+# Packaging using the buildscript
+
+There is a bash script for packaging the application included in the 'code' directory. It makes a tar file using the required file structure, and can optionally sign it.
+
+The script doesn't require root permissions, just a few packages: ```git, xmlstarlet, tar```
