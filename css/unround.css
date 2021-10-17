@@ -33,3 +33,13 @@ a.button,
 select {
     border-radius: var(--border-radius-pill) !important;
 }
+
+/* Fix some button misalignments */
+#body-login input.primary { /* For login button */
+    width: 100% !important;
+}
+
+#body-login .two-factor-submit { /* For two factor submit button */
+    width: 269px !important; /* It's a hardcoded width, following the same hardcoded width from the two factor input. That's just sad :( */
+}
+
