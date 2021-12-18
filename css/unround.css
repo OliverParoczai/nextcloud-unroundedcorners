@@ -7,10 +7,6 @@
     border-radius: var(--border-radius-pill) !important;
 }
 
-.icon-history{
-    border-radius: 100px !important; /* Still E-mail, reversing the border for this icon as it has an animation that would overlap */
-}
-
 .fc-day-today .fc-daygrid-day-number{ /* For Calendar app */
     border-radius: var(--border-radius-pill) !important;
 }
@@ -23,7 +19,7 @@
     border-radius: var(--border-radius-pill) 0 0 var(--border-radius-pill) !important;
 }
 
-/* For buttons */
+/* For buttons, needs to be before specific button overrides (like the E-mail icon-history) */
 input[type='submit'],
 input[type='submit'].icon-confirm,
 input[type='button'],
@@ -43,3 +39,6 @@ select {
     width: 269px !important; /* It's a hardcoded width, following the same hardcoded width from the two factor input. That's just sad :( */
 }
 
+.icon-history{
+    border-radius: 100px !important; /* Still E-mail, reversing the border for this icon as it has an animation that would overlap */
+}
