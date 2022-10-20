@@ -1,10 +1,28 @@
-:root{ /* For sitewide buttons */
+:root { /* Body container settings */
+--body-container-margin: 0.01px !important;
+--body-container-radius: 0 !important;
+--body-height: calc(100% - env(safe-area-inset-bottom) - var(--body-container-margin)) !important;
+}
+
+[data-theme-light], [data-theme-dark]{ /* For sitewide buttons */
     --border-radius-large: 4px !important; /* Used on the dashboard */
     --border-radius-pill: 4px !important; /* Used everywhere else */
 }
 
+#app-navigation:not(.vue) {
+  --border-radius-pill: var(--border-radius-pill) !important; /* Navigation buttons on sidebar */
+}
+
+.checkbox-radio-switch__label { /* Radio button, used mainly in settings */
+  border-radius: var(--border-radius-pill) !important;
+}
+
 .list-item, .list-item-style, .action-item--single, .action-item__menutoggle{ /* For E-mail app */
     border-radius: var(--border-radius-pill) !important;
+}
+
+.envelope { /* Content part of E-mails */
+  border-radius: var(--border-radius-pill) !important;
 }
 
 .fc-day-today .fc-daygrid-day-number{ /* For Calendar app */
