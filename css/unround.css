@@ -1,7 +1,7 @@
 :root { /* Body container settings */
---body-container-margin: 0.01px !important;
---body-container-radius: 0 !important;
---body-height: calc(100% - env(safe-area-inset-bottom) - var(--body-container-margin)) !important;
+--body-container-margin: 0px !important;
+--body-container-radius: 0px !important;
+--body-height: 100% !important;
 }
 
 [data-theme-light], [data-theme-dark]{ /* For sitewide buttons, both themes */
