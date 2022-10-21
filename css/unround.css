@@ -1,7 +1,6 @@
 :root { /* Body container settings */
 --body-container-margin: 0px !important;
 --body-container-radius: 0px !important;
---body-height: 100% !important;
 }
 
 [data-theme-light], [data-theme-dark]{ /* For sitewide buttons, both themes */
@@ -31,10 +30,6 @@
 
 .note-card-view, .folder-card-view{ /* For Carnet app */
     border-radius: var(--border-radius-pill) !important;
-}
-
-.main-view { /* For Talk app */
-   height: calc(100% - 50px) !important;
 }
 
 #uploadprogressbar { /* For upload progress bar */
