@@ -1,7 +1,6 @@
 :root { /* Body container settings */
 --body-container-margin: 0px !important;
 --body-container-radius: 0px !important;
---body-height: 100% !important;
 }
 
 [data-theme-light], [data-theme-dark]{ /* For sitewide buttons, both themes */
@@ -33,10 +32,6 @@
     border-radius: var(--border-radius-pill) !important;
 }
 
-.main-view { /* For Talk app */
-   height: calc(100% - 50px) !important;
-}
-
 #uploadprogressbar { /* For upload progress bar */
     border-radius: var(--border-radius-pill) 0 0 var(--border-radius-pill) !important;
 }
@@ -52,13 +47,18 @@ select {
     border-radius: var(--border-radius-pill) !important;
 }
 
-/* Fix some button misalignments */
-#body-login input.primary { /* For login button */
+.guest-box, .body-login-container { /* Login container (requires hardcoded radius, login page overrides local variables) */
+    border-radius: 4px !important;
+}
+ 
+.two-factor-provider { /* For two-factor login options */
     width: 100% !important;
 }
-
-#body-login .two-factor-submit { /* For two factor submit button */
-    width: 269px !important; /* It's a hardcoded width, following the same hardcoded width from the two factor input. That's just sad :( */
+ 
+/* Fix some button misalignments */
+#body-login:first-of-type button[type="submit"] { /* For login button, also requires hardcoded radius */
+    width: 100% !important;    
+    border-radius: 4px !important;
 }
 
 .icon-history{
