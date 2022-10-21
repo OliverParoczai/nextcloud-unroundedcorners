@@ -33,6 +33,10 @@
     border-radius: var(--border-radius-pill) !important;
 }
 
+.main-view { /* For Talk app */
+   height: calc(100% - 50px) !important;
+}
+
 #uploadprogressbar { /* For upload progress bar */
     border-radius: var(--border-radius-pill) 0 0 var(--border-radius-pill) !important;
 }
