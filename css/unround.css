@@ -3,7 +3,7 @@
 --body-container-radius: 0px !important;
 }
 
-[data-theme-light], [data-theme-dark]{ /* For sitewide buttons, both themes */
+[data-theme-default], [data-theme-light], [data-theme-dark]{ /* For sitewide buttons, both themes */
     --border-radius-large: 4px !important; /* Used on the dashboard */
     --border-radius-pill: 4px !important; /* Used everywhere else */
 }
