@@ -1,6 +1,7 @@
 :root { /* Body container settings */
 --body-container-margin: 0px !important;
 --body-container-radius: 0px !important;
+--border-radius-large: 0px !important;
 }
 
 [data-theme-default], [data-theme-light], [data-theme-dark], [data-theme-light-highcontrast], [data-theme-dark-highcontrast]{ /* For sitewide buttons, both themes */
