@@ -8,7 +8,7 @@
 # Unrounded Corners
 A Nextcloud app that restores the corners of buttons and widgets to their original looks by unrounding them.
     ]]></description>
-    <version>1.0.9</version>
+    <version>1.1.0</version>
     <licence>agpl</licence>
     <author mail="me@oliverparoczai.org" homepage="https://oliverparoczai.dev">Oliver Paroczai</author>
     <namespace>UnroundedCorners</namespace>
@@ -17,6 +17,6 @@ A Nextcloud app that restores the corners of buttons and widgets to their origin
     <bugs>https://github.com/OliverParoczai/nextcloud-unroundedcorners/issues</bugs>
     <screenshot>https://raw.githubusercontent.com/OliverParoczai/nextcloud-unroundedcorners/master/differences.png</screenshot>
     <dependencies>
-        <nextcloud min-version="25" max-version="29"/>
+        <nextcloud min-version="27" max-version="37"/>
     </dependencies>
 </info>
