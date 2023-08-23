@@ -1,8 +1,9 @@
-:root { /* Body container settings, mostly for removing the side margins */
+:root { /* Body container settings, mostly for removing the side margins, and for applying the styles to guest pages */
 --body-container-margin: 0px !important;
 --body-container-radius: 0px !important;
---border-radius-large: 0px !important;
---border-radius-rounded: 0px !important; 
+--border-radius-large: 4px !important;
+--border-radius-rounded: 4px !important; 
+--border-radius-pill: 4px !important;
 }
 
 [data-theme-default], [data-theme-light], [data-theme-dark], [data-theme-light-highcontrast], [data-theme-dark-highcontrast]{ /* For sitewide buttons, both themes */
