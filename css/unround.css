@@ -68,3 +68,8 @@ select {
 .icon-history{
     border-radius: 100px !important; /* Still E-mail, reversing the border for this icon as it has an animation that would overlap */
 }
+
+/* Fix width of select items, especially for the contacts page */
+.vs__selected {
+    min-width: unset !important;
+}
