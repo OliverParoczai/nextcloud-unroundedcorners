@@ -73,3 +73,13 @@ select {
 .vs__selected {
     min-width: unset !important;
 }
+
+/* Used at the file navigation buttons for example */
+.button-vue {
+   border-radius: var(--border-radius-pill) !important;
+}
+
+/* Used on some settings panels */
+.checkbox-content {
+   border-radius: var(--border-radius-pill) !important;
+}
