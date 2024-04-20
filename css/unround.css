@@ -83,3 +83,8 @@ select {
 .checkbox-content {
    border-radius: var(--border-radius-pill) !important;
 }
+
+/* Fix OnlyOffice app height */
+#onlyofficeFrame {
+  height: calc(100vh + 8px);
+}
