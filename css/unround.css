@@ -1,15 +1,11 @@
-:root { /* Body container settings, mostly for removing the side margins, and for applying the styles to guest pages */
+:root, [data-theme-default], [data-theme-light], [data-theme-dark], [data-theme-light-highcontrast], [data-theme-dark-highcontrast] { /* Body container settings, mostly for removing the side margins, and for applying the styles to guest pages */
 --body-container-margin: 0px !important;
 --body-container-radius: 0px !important;
 --border-radius-large: 4px !important;
+--border-radius-container-large: 4px !important;
 --border-radius-rounded: 4px !important; 
 --border-radius-pill: 4px !important;
-}
-
-[data-theme-default], [data-theme-light], [data-theme-dark], [data-theme-light-highcontrast], [data-theme-dark-highcontrast]{ /* For sitewide buttons, both themes */
-    --border-radius-large: 4px !important; /* Used on the dashboard */
-    --border-radius-rounded: 4px !important; /* Used on the dashboard */
-    --border-radius-pill: 4px !important; /* Used everywhere else */
+--border-radius-element: 4px !important;
 }
 
 #app-navigation:not(.vue) {
@@ -87,4 +83,16 @@ select {
 /* Fix OnlyOffice app height */
 #onlyofficeFrame {
   height: calc(100vh + 8px);
+}
+
+/* Used for mail settings, upper button */
+.checkbox-radio-switch--button-variant-v-grouped:first-of-type {
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+}
+
+/* Used for mail settings, lower button */
+.checkbox-radio-switch--button-variant-v-grouped:last-of-type {
+  border-bottom-left-radius: 4px !important; 
+  border-bottom-right-radius: 4px !important;
 }
