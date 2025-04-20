@@ -96,3 +96,8 @@ select {
   border-bottom-left-radius: 4px !important; 
   border-bottom-right-radius: 4px !important;
 }
+
+/* Used for mail tags */
+.tag-group__bg {
+  border-radius: unset !important;
+}
