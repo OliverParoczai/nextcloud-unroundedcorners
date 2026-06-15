@@ -101,3 +101,9 @@ select {
 .tag-group__bg {
   border-radius: unset !important;
 }
+
+/* Used for app icons in the waffle menu */
+.app-item__circle {
+   border-radius: var(--border-radius-pill) !important;
+}
+
